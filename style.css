@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.roqqu-body{
+    display: flex;
+}
+.side-bar{
+    width: 15%;
+    background-color: rgb(50, 56, 63);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    height: 100vh;
+}
+.logo img{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.side-bar h3{
+    margin-bottom: 15px;
+}
+.overview{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.overview img{
+    margin-right: 20px;
+}
+.wallet{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.wallet img{
+    margin-right: 20px;
+}
+.Transactions{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Transactions img{
+    margin-right: 20px;
+}
+.nft{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.nft img{
+    margin-right: 20px;
+}
+.Exchange{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Exchange img{
+    margin-right: 20px;
+}
+.Roqqu{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Roqqu img{
+    margin-right: 20px;
+}
+
+.Settings{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Settings img{
+    margin-right: 20px;
+}
+.Help{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.Help img{
+    margin-right: 20px;
+}
+
+/* *****Dark-mode******* */
+.dark-mode{
+    display: flex;
+    padding:5px;
+    background-color: rgb(36, 33, 33);
+    border-radius: 10px;
+    width: 190px;
+    margin-top: 30px;
+    
+}
+.dark{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 6px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(50, 56, 63) ;
+    
+    
+}
+.dark img{
+    margin-right: 4px;
+    width: 18px;
+    
+    
+}
+.light{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 6px;
+    color: #fff;
+    
+}
+.light img{
+    margin-right: 4px;
+    width: 15px;
+}
+/* *****main-sectiom***** */
+.main-section{
+    width: 100%;
+    background-color: rgb(28, 33, 39);
+}
+.dash{
+    color: rgb(165, 177, 189);
+    display: flex;
+    align-items: center;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header-right{
+    display: flex;
+    gap: 20px;
+    
+}
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #20252B;
+    border-radius: 7px;
+}
+.search-wrapper img{
+    margin-right: 5px;
+}
+.search-wrapper input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(165, 177, 189);
+}
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-wrapper h4{
+    color: #fff;
+}
+.profile-wrapper img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.line{
+    background:rgb(165, 177, 189) ;
+    height: 0.09px;  
+}
+/* *******dashboard******** */
+.dashboard{
+    display: flex;
+}
+.dashboard-left{
+    padding: 50px 25px;
+    width: 72%;
+    border-right: #fff solid 1px;
+}
+.dashboard-left h3{
+    color: aliceblue;
+    margin-bottom: 12px;
+}
+.step-1{
+    display: flex;
+    justify-content: space-between;
+}
+.step-1-left{
+    display: flex;
+    gap: 90px;
+    color: #fff;
+}
+.drop-dowen{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: #fff solid 0.5px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.step-1-right{
+    display: flex;
+    gap: 20px;
+} 
+.btn{
+    display: flex;
+    padding: 10px 15px;
+    color: #fff;
+    align-items: center;
+    gap: 10px;
+    border: #fff  1px;
+    border-radius: 10px;
+    background-color: rgb(37, 43, 49);  
+}
+.step-2{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.show{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color:rgb(160, 210, 254) ;
+
+}
+.show img{
+    width: 15px;
+}
+.step3{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgb(37, 43, 49);
+    width: 150px;  
+}
+.circle-icon img{
+    margin-bottom: 20px;
+
+}
+.dashboard-right{
+    padding: 40px;
+}
+.card{
+    padding: 20px;
+    border-radius: 0px 20px 20px 20px;
+    background-image: url(https://app.roqqu.com/static/media/need-help-bg.071e9de701e0d1900fdd.png);
+    background-size: cover;
+    
+    
+}
+.dashboard-right > :nth-child(2){
+    background-image: url(https://app.roqqu.com/static/media/gradient-bg.28ab131e7b3bc109c5e1.png);
+    
+}
+.card h2{
+    margin-bottom: 15px;
+
+}
+.card p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.card button{
+    padding: 12px 20px;
+    border-radius: 10px;
+    border-width: none;
+    border: none;
+    background: rgb(131, 118, 118);
+    color: rgb(240, 240, 224);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.card-2{
+    margin-top: 20px;
+    width: 400px;
+}
+.card-2 button{
+    background: rgb(15, 14, 14);
+    font-size: 16px;
+    font-weight: 700;
+}
+.crypto{
+    padding: 25px; 
+}
+.tren-btn-wrapper{
+    display: flex;
+    padding: 7px;
+    background-color: rgb(34, 38, 43);
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: fit-content;
+}
+.trend {
+    padding: 13px 20px;
+    color: #fff;
+    background-color: rgb(50, 56, 63);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.losers{
+    padding: 10px 40px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sub-crypto{
+    margin-top: 20px;
+}
+.header-crypto-wrrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.sub-crypto-wrapper{
+    display: flex;
+    gap: 30px;
+    
+}
+.crypt-chat-wrapper{
+    margin-top: 30px;
+    background-color: rgb(50, 56, 63);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+.coin-chart{
+    width: 190px;
+}
+.coin-price-wrapper{
+    background-color: rgb(34, 38, 43);
+    width: 200px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.coin-price-wrapper h4{
+    margin-bottom: 10px;
+}
+.sub-crypto-wrapper{
+    overflow: hidden;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width:100% ;
+    color: #fff;
+    background-color: #20252B;
+    border-radius: 10px 10px 0 0;
+    
+    border: solid greenyellow;
+}
+.content-table thead tr th{
+    padding-top: 30px;
+
+}
+.content-table thead tr{
+    text-align: left;
+
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 20px 0;
+}
+.logo-wrapper span{
+    color:#777e91 ;
+    font-size: 0.9rem;
+} 
+.rank{
+    color:#777e91 ;
+}
